@@ -7,6 +7,7 @@
 
 body{
     background: #f7f8fc;
+    font-family: 'Nunito', sans-serif;
 }
 
 .container{
@@ -17,12 +18,49 @@ body{
 
 .item{
     background-color: white;
-    max-width: 320px;
-    height: 420px;
-    box-shadow: 0 3px 6px rgba(250, 245, 245, 0.5), 0 3px 6px rgba(255, 249, 249, 0.2);
+    max-width: 370px;
+    height: 450px;
+    box-shadow: 0 19px 38px rgba(250, 245, 245, 0.5), 0 15px 12px rgba(255, 249, 249, 0.2);
     border-radius: 2px;
+    margin-top: 50px;
 }
+.portrait{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -50px;
 
+}
 .portrait img{
     border-radius: 50%;
+    background-position: center center;
+    background-size: contain;
+}
+
+.item-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.item-details h3{
+    color: #31384c;
+    font-weight: bold;
+}
+
+.item-details p{
+    color: #31384c;
+    opacity: 0.7;
+}
+
+button{
+    margin-top: 10px;
+    padding: 8px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #10182f;
+    color: white;
 }
