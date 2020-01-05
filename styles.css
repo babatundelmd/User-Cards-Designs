@@ -80,13 +80,17 @@ body{
 
 .sm-btn{
     margin-top: 10px;
-    padding: 8px 40px;
+    padding: 8px 24px;
     border-radius: 20px;
     border: none;
     color: #555e7b;
     border: 1px solid#dde4f6;
     background-color: white;
     font-weight: bold;
+}
+
+.sm-btn i{
+    margin-left: 5px;
 }
 
 .item-p{
