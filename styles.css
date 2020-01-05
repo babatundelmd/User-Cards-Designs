@@ -11,19 +11,32 @@ body{
 }
 
 .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10%;
     justify-content: center;
     align-items: center;
+
 }
 
 .item{
     background-color: white;
-    max-width: 370px;
+    max-width: 320px;
     height: 450px;
     box-shadow: 0 19px 38px rgba(250, 245, 245, 0.5), 0 15px 12px rgba(255, 249, 249, 0.2);
     border-radius: 2px;
     margin-top: 50px;
 }
+.item-lg{
+        background-color: white;
+
+        height: 450px;
+        box-shadow: 0 19px 38px rgba(250, 245, 245, 0.5), 0 15px 12px rgba(255, 249, 249, 0.2);
+        border-radius: 2px;
+        margin-top: 50px;
+
+}
+
 .portrait{
    display: flex;
    justify-content: center;
