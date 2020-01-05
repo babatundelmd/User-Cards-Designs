@@ -69,11 +69,26 @@ body{
     opacity: 0.7;
 }
 
-button{
+.lg-btn{
     margin-top: 10px;
     padding: 8px 40px;
     border-radius: 20px;
     border: none;
     background-color: #10182f;
     color: white;
+}
+
+.sm-btn{
+    margin-top: 10px;
+    padding: 8px 40px;
+    border-radius: 20px;
+    border: none;
+    color: #555e7b;
+    border: 1px solid#dde4f6;
+    background-color: white;
+    font-weight: bold;
+}
+
+.item-p{
+    margin-bottom: 1.5rem;
 }
