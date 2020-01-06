@@ -1,2 +1,2 @@
 # User-Cards-Designs
-A collage of beautiful User Cards
+A collection of beautiful UI Cards Designs
